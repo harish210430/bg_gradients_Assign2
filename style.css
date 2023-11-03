@@ -80,11 +80,13 @@ h4 {
 	font-family: "Noto Sans", serif;
 }
 
-
+/* Dark Mode Button */
 .toggle-on {
 	font-size: 13px;
 	color: #b0abab;
 }
+
+/*  */
 a {
 	text-decoration: none;
 	color: #fff;
