@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* # Our Style */
+* {
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+body {
+    font-size: 16px;
+    background-color: #1D2029;
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 1px;
+}
+
+/* General Section */
+.container {
+    max-width: 1100px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.padding {
+	padding: 24px 0;
+}
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Noto Sans", serif;
+}
+
+
+.toggle-on {
+	font-size: 13px;
+	color: #b0abab;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	vertical-align: middle;
+}
+h1,h3 {
+	font-size: 27px;
+	color: #fff;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+	font-weight: 600;
+}
+small {
+	color: #b0abab;
+}
+.col-1-4 {
+	padding: 30px;
+	height: 220px;
+	text-align: center;
+	flex: 0 1 23%;
+	border-radius: 4px;
+	background-color: #252B43;
+	border-top: 5px solid;
+	border-image-slice: 1;
+}
+.Box1 {
+	border-image-source: linear-gradient(#168ff4,#168ff4);
+}
+.Box2 {
+	border-image-source: linear-gradient(#168ff4,#168ff4);
+}
+.Box3{
+	border-image-source: linear-gradient(to left, #F5B877,#DD6A8F);
+}
+.Box4{
+	border-image-source: linear-gradient(#B50A2E,#B50A2E);
+}
+.col-1-4 a {
+	font-weight: bold;
+	font-size: 13px;
+	color: #657489;
+}
+.col-1-4 a i {
+	color: #168ff4;
+	padding-right: 5px;
+}
+h2 {
+	font-size: 56px;
+	font-weight: 700;
+	color: #fff;
+	padding-top: 25px;
+}
+.Follower {
+	padding: 8px 0;
+	text-transform: uppercase;
+	color: #6a7380;
+	letter-spacing: 5px;
+	margin-bottom: 17px;
+}
+span {
+	font-size: 13px;
+	font-weight: bold;
+}
+.Increase {
+	color: #008000;
+}
+.Decrease {
+	color: #bd0932;
+}
+
+
+.child-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 18px 16px;
+	flex: 0 1 23.5%;
+	height: 130px;
+	background-color: #252B43;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+h4 {
+	font-size: 30px;
+	color: #fff;
+	font-weight: bold;
+}
+.Increase a {
+	color: #008000;
+	font-size: 13px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.Decrease a {
+	color: #a00404;
+	font-size: 13px;
+	line-height: 30px;
+	font-weight: bold;
+}
